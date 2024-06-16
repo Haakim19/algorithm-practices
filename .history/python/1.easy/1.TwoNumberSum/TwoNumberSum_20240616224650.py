@@ -32,12 +32,13 @@
 arraySize = 5
 arr = []
 for i in range (arraySize):
-    num = int (input("Enter a number: "))
-    arr.append(num)
+    i = int (input("Enter a number: "))
+    arr.appand[i]
 targetNumber1 = int (input("Enter nuber to ba find: "))
 
 for a in range(len (arr)):
     for b in range (a+1, len (arr)):
         if arr[a] + arr [b] == targetNumber1:
-            print(f'numbers are {arr[a] , arr[b]}')
+            final = arr[a] , arr[b]
 
+print(final)
